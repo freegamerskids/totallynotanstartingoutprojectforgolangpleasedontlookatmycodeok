@@ -10,21 +10,13 @@ import (
 	"fmt"
 	"time"
 	"math/rand"
+	"github.com/freegamerskids/totallynotanstartingoutprojectforgolangpleasedontlookatmycodeok/settings"
 )
 
-type settings struct {
-	R *byte 0
-	G *byte 0
-	B *byte 0
-	A *byte 1
-}
-
-var settings color_setts
-
-settings.R = *0;
-settings.G = *0;
-settings.B = *0;
-settings.A = *1;
+settings.RED = *0;
+settings.GREEN = *0;
+settings.BLUE = *0;
+settings.ALPHA = *1;
 
 func run() {
 
